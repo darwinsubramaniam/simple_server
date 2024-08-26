@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "dev": "deno run --unstable --watch main.ts"
+  },
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^16.1.0",
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "deploy": {
+    "project": "5e897879-344c-456e-9285-d11a4f3a9c94",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "main.ts"
+  }
+}
